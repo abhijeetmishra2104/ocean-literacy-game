@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Decision from './Decision';
+import { ShipCaptain } from '../pages/ShipCaptain';
 
 const Game = () => {
     const [role, setRole] = useState(null);
